@@ -1,0 +1,8 @@
+# Cross-compilation configuration for kube-tunnel
+
+[build]
+# Default to native host target if not explicitly specified
+# target = "x86_64-unknown-linux-gnu"
+
+[target.aarch64-apple-darwin]
+# Configuration for macOS Apple Silicon cross-compilation
